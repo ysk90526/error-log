@@ -17,6 +17,7 @@
   font-size: 50px;
   color: #FAFAFA;
   text-align: center;
+  margin-bottom: 20px;
   text-decoration: none;
 }
 
@@ -59,6 +60,27 @@
 .log-header {
   height: 150px;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  color: #333;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 36px;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+}
+
+.header-button a {
+  text-decoration: none;
+  border: 1px solid red;
+  color: red;
+  padding: 20px;
 }
 
 .documents {

@@ -13,15 +13,47 @@
   padding: 0 20px;
 }
 
+.header-name h1 {
+  font-size: 50px;
+  color: #FAFAFA;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header-name span {
+  color: #C81D25;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fas {
+  font-size: 35px;
+  color: white;
+  text-decoration: none;
+}
+
 .lists {
   background-color: #2F3E51;
   height: calc(100vh - 150px);
   padding: 0 20px;
+  overflow: scroll;
 }
 
+.list {
+  padding: 20px 0 40px;
+}
+
+.list-title a {
+  font-weight: 800;
+  text-decoration: none;
+  color: white;
+}
 .log {
   background-color: #FFFFFF;
-  width: calc(100vh - 350px);
+  width: calc(100vw - 350px);
 }
 
 .log-header {

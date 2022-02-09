@@ -17,7 +17,7 @@
   font-size: 50px;
   color: #FAFAFA;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 3px;
   text-decoration: none;
 }
 
@@ -31,7 +31,15 @@
 }
 
 .fas {
-  font-size: 35px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.user-name a {
+  font-size: 20px;
+  font-weight: 500;
   color: white;
   text-decoration: none;
 }
@@ -44,7 +52,7 @@
 }
 
 .list {
-  padding: 20px 0 40px;
+  padding: 1em;
 }
 
 .list-title a {
@@ -86,5 +94,34 @@
 .documents {
   background-color: #FAFAFA;
   height: calc(100vh - 150px);
-  padding: 46px 40px 0;
+  padding: 30px 30px 0;
+}
+
+.document {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.objective {
+  margin-bottom: 10px;
+}
+
+.error_content {
+  margin-bottom: 10px;
+}
+
+.research {
+  margin-bottom: 10px;
+}
+
+.cause {
+  margin-bottom: 10px;
+}
+
+.solution {
+  margin-bottom: 10px;
+}
+
+.reference {
+  margin-bottom: 10px;
 }

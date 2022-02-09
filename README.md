@@ -25,6 +25,7 @@
 | error_content | text       | null:false                   |
 | research      | text       | null:false                   |
 | cause         | text       | null:false                   |
+| solution      | text       | null:false                   |
 | reference     | text       | null:false                   |
 | user          | references | null:false, foreign_key:true |
 
